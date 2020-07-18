@@ -1,0 +1,273 @@
+
+.status-text {
+    color: #636363
+}
+
+.flex {
+    display: flex;
+}
+
+.chat-text {
+    border-radius: 15px;
+    margin: 0 30px 0;
+    overflow-y: scroll;
+    background-color: rgb(244, 244, 247);
+}
+
+.status-details {
+    height: 50px;
+    border-bottom: 2px solid rgba(203, 212, 218, .22);
+}
+
+.chat-status {
+    justify-content: space-between;
+    line-height: 100%;
+    padding: 16px 0;
+    color: #636363;
+    margin: 0 16px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+
+.white {
+    background-color: white;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+.rtl {
+    direction: rtl;
+}
+
+.chat:before {
+    content: " ";
+    height: 500px;
+    position: fixed;
+    top: 0;
+    left: -15%;
+    right: -15%;
+    background: #63dbc0;
+    z-index: -1;
+    border-bottom-left-radius: 100% 80%;
+    border-bottom-right-radius: 0 80%;
+}
+
+.visit-io-link {
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: rgba(8, 9, 9, .5);
+    text-decoration: none;
+    direction: ltr;
+}
+
+.issue {
+    height: 200px
+}
+
+.visit-io-link .image {
+    width: 41px;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+
+.chat {
+    width: 500px;
+}
+
+.chat-box {
+    background-color: rgb(130, 216, 194);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .39);
+    max-width: 90%;
+    margin: 30px 0 20px 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+.header {
+    width: 500px;
+    display: flex;
+    height: 40px;
+}
+
+div {
+    display: block;
+}
+
+.header-left {
+    background-color: rgb(171, 228, 213);
+    width: 80%;
+}
+
+.header-right {
+    background-color: rgb(130, 216, 194);
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.chat-header {
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(130, 216, 194);
+}
+
+.title {
+    padding: 5px 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+h3 {
+    margin: 40px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #42b983;
+}
+
+body {
+    margin: 0
+}
+
+.chat-area {
+    flex: 1 1;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 8px;
+    height: 200px;
+    width: 90%;
+}
+
+.update-textarea {
+    direction: rtl;
+    height: 45px;
+    border-radius: 15px;
+    width: 90%;
+}
+
+
+.issue-update-text-item {
+    --submit-height: 60px;
+    --desktop-survey-width: 500px;
+    --desktop-survey-height: 700px;
+    --survey-row-height: 100px;
+    --survey-top-row-height: 120px;
+    --success-modal-size: 250px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    direction: rtl;
+    box-sizing: inherit;
+    border-radius: 10px;
+    padding: 12px 8px;
+    box-shadow: 1px 1px 2px 1px hsla(0, 0%, 40.4%, .21);
+    background: #fff;
+    margin: 10px 5px;
+    display: table;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.message-right {
+    /*position: absolute;*/
+    right: 10px;
+    top: 5px;
+}
+
+.message-left {
+    /*position: absolute;*/
+    left: 10px;
+    top: 5px;
+}
+
+.message {
+    display: inline-flex;
+}
+
+.time {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    direction: rtl;
+    box-sizing: inherit;
+    opacity: .4;
+    display: inline-flex;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.send-button-container {
+    margin-right: -60px;
+    box-sizing: inherit;
+    z-index: 9999;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    direction: rtl;
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 8px 8px 12px;
+    color: #62dbbf;
+    font-weight: 700;
+}
+
+
+.send-button {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    direction: rtl;
+    color: #62dbbf;
+    background-color: inherit;
+    border: none;
+    font-weight: 700;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+/*input[type="text"] {*/
+/*    border:none*/
+/*}*/
+
+.icon {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    direction: rtl;
+    word-break: break-word;
+    font-size: 16px;
+    font-weight: bolder;
+    box-sizing: inherit;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
