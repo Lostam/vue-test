@@ -1,11 +1,16 @@
 <template>
     <div id="app">
-        <div id="nav">
-            <router-link to="/chat">Chat</router-link>
-        </div>
+
+        <router-view></router-view>
     </div>
 </template>
 
+
+<script>
+    export default {
+        name: 'App',
+    }
+</script>
 <style>
     #app {
         font-family: Avenir, Helvetica, Arial, sans-serif;
